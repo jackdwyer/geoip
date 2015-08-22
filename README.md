@@ -1,8 +1,8 @@
-#geo ip
+#geoip
 Bash & jq wrapper for MaxMinds GeoIP Demo
 
 ## Example Usage
-`./geo_ip.sh $(dig +short jackdwyer.org)`
+`./geoip.sh $(dig +short jackdwyer.org)`
 ```San Francisco | United States
 
 CloudFlare | 104.28.17.112 ```
