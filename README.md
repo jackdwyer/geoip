@@ -3,6 +3,7 @@ Bash & jq wrapper for MaxMinds GeoIP Demo
 
 ## Example Usage
 `./geoip.sh $(dig +short jackdwyer.org)`
+
 `San Francisco | United States | CloudFlare | 104.28.16.112`
 
 ## Dependencies
