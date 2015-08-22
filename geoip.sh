@@ -19,8 +19,7 @@ parse_loc_data () {
   local city=$(cat ${data} | jq '.city.names.en' | sed 's/"//g;')
   local country=$(cat ${data} | jq '.country.names.en' | sed 's/"//g;')
   local isp=$(cat ${data} | jq '.traits.isp' | sed 's/"//g;')
-  printf "%s | %s\n" "$city" "$country"
-  printf "%s | %s\n" "$isp" "$ip"
+  printf "%s | %s | %s | %s\n" "$city" "$country" "$isp" "$ip"
 }
 
 get_location_data () {
